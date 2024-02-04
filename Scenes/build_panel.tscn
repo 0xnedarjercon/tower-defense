@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://bid2j07qhsokm"]
+
+[ext_resource type="Script" path="res://Scripts/BuildOptions.gd" id="1_txiat"]
+[ext_resource type="PackedScene" uid="uid://cg2ig5d7flpyd" path="res://Scenes/wall_button.tscn" id="2_gi5ua"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource("1_txiat")
+
+[node name="Panel" type="Panel" parent="."]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureButton" parent="Panel/HBoxContainer" instance=ExtResource("2_gi5ua")]
+layout_mode = 2

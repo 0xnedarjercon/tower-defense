@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cxc870ym2unv8"]
+
+[ext_resource type="Texture2D" uid="uid://dvtafjpl6h8av" path="res://512Box.png" id="1_vxqor"]
+[ext_resource type="Script" path="res://Scripts/MapGeneration/HeightmapDrawer.gd" id="2_wrol4"]
+
+[node name="z" type="Sprite2D"]
+texture = ExtResource("1_vxqor")
+centered = false
+script = ExtResource("2_wrol4")

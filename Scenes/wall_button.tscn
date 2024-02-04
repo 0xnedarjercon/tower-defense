@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cg2ig5d7flpyd"]
+
+[ext_resource type="Texture2D" uid="uid://d0i5tjy1fb0d8" path="res://white_square.png" id="1_07vqo"]
+
+[node name="TextureButton" type="TextureButton"]
+custom_minimum_size = Vector2(16, 16)
+texture_normal = ExtResource("1_07vqo")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3h3s7h2mqg3a"]
+
+[ext_resource type="Texture2D" uid="uid://dqgiyqdvhg87e" path="res://Sprites/wall.png" id="1_wfuvv"]
+
+[node name="BuyButton" type="TextureButton"]
+size_flags_vertical = 4
+texture_normal = ExtResource("1_wfuvv")

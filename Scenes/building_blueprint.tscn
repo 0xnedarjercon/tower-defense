@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://iu00o7sa18ua"]
+
+[node name="Sprite2D" type="Sprite2D"]
+unique_name_in_owner = true
